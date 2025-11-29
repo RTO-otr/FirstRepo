@@ -1,0 +1,15 @@
+import java.util.*;
+public class Solution 
+{
+    public static void main(String[] args) 
+    {
+        Scanner kb = new Scanner(System.in);
+        String s =kb.nextLine();
+        double d = Double.parseDouble(kb.nextLine());
+        int i = Integer.parseInt(kb.nextLine());
+
+        System.out.println("String: " + s);
+        System.out.println("Double: " + d);
+        System.out.println("Int: " + i);
+    }
+}
